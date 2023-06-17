@@ -1,0 +1,55 @@
+
+
+.headerContainer {
+  display: flex;
+  height: 5rem;
+  background-color: darkgreen;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
+}
+
+.headerName {
+  padding: 25px;
+  font-family: 'Shrikhand', cursive;
+  letter-spacing: 1.1px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.headerNav {
+  padding: 25px;
+  padding-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+}
+
+.navLink {
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navLinkCanvas {
+  padding: 10px;
+  color: #000;
+  text-decoration: none;
+}
+
+.offCanvasMenu {
+  max-width: 250px;
+}
+
+.offcanvasMenuList {
+  display: flex;
+  flex-direction: column;
+  // background-color: yellow;
+}
+
+.burgerBar {
+  height: 30px;
+  padding-right: 10px;
+}
