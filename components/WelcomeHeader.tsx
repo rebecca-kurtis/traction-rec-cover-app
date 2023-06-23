@@ -12,7 +12,7 @@ export const WelcomeHeader: React.FC<WelcomeHeaderProps> = ({}) => {
       <div className={styles.welcomeHeader}>
         <div className={styles.welcomeImageBlock}>
         <Image
-              priority
+              
               src="/images/pexels-igor-haritanovich-1687341-large.jpg"
               className={styles.welcomeImage}
               fill={true}

@@ -3,6 +3,7 @@ import Head from 'next/head';
 import styles from './page.module.scss';
 import { Header } from '../../components/Header';
 import { WelcomeHeader } from '../../components/WelcomeHeader';
+import { About } from '../../components/About';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
       <Header></Header>
       <WelcomeHeader></WelcomeHeader>
+      <About></About>
       <div className={styles.test}></div>
       {/* <div className={styles.description}>
         <p>
