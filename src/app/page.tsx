@@ -4,6 +4,7 @@ import styles from './page.module.scss';
 import { Header } from '../../components/Header';
 import { WelcomeHeader } from '../../components/WelcomeHeader';
 import { About } from '../../components/About';
+import { Projects } from '../../components/Projects.js';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Header></Header>
       <WelcomeHeader></WelcomeHeader>
       <About></About>
+      <Projects></Projects>
       <div className={styles.test}></div>
       {/* <div className={styles.description}>
         <p>
