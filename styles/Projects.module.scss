@@ -1,5 +1,24 @@
 @import '../src/app/page.module.scss';
 
-.slideshow {
-  width: 1000px;
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  // background-color: $sageGreen;
+}
+
+.slideshowContainer {
+  width: 1200px;
+  max-height: fit-content;
+}
+
+.slideImage{
+  object-fit: contain;
+}
+
+.projectsSpacer {
+  height: 100px;
 }
