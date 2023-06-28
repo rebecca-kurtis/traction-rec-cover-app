@@ -26,6 +26,7 @@ const Slide = () => {
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log("slide change")}
     >
+      <div>
       <SwiperSlide>
         <p className="text-navy text-lg mb-5 text-center">
           Aunt Bottie is an app for buying plants as gifts and creating a
@@ -109,6 +110,8 @@ const Slide = () => {
           />
         </a>
       </SwiperSlide>
+      </div>
+      
     </Swiper>
   );
 };
@@ -117,7 +120,8 @@ const Slide = () => {
 export const Projects = () => {
   return (
     <div className={styles.projectsContainer}>
-      <h1>Projects</h1>
+      <div className={styles.projectsSpacer} />
+      <h2 className={styles.projectsHeader}>Projects</h2>
       <div className={styles.slideshowContainer}>
         <Slide className={styles.slideshow} />
       </div>

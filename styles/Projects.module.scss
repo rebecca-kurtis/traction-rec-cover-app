@@ -7,18 +7,70 @@
   justify-content: center;
   align-items: center;
   height: fit-content;
-  // background-color: $sageGreen;
+  background-color: $darkGreen;
+  color: $white;
 }
 
 .slideshowContainer {
   width: 1200px;
   max-height: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectsHeader {
+  font-family: $headerFont;
+  text-align: center;
+  letter-spacing: 1.3px;
+  font-size: 45px;
 }
 
 .slideImage{
   object-fit: contain;
+  justify-content: center;
+  align-items: center;
 }
 
 .projectsSpacer {
   height: 100px;
+}
+
+//mobile styling
+@media only screen and (max-width: 979.99px) {
+
+  .projectsContainer {
+    display: flex;
+    flex-direction: column;
+    // height: fit-content;
+    // width: 100%;
+  }
+
+  .slideshowContainer {
+    // justify-content: center;
+    // align-items: center;
+    // align-content: center;
+    // position: relative;
+    width: 300px;
+    // object-fit: contain;
+    // width:max-content;
+    // width: min-content;
+    // height: auto;
+    // max-height: fit-content;
+  }
+
+  .slideImage{
+    justify-content: center;
+    align-content: center;
+    // object-fit: none;
+    width: 300px;
+    height: 300px;
+    // width: auto;
+    // height: auto;
+  }
+  button Navigation.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    display: none;
+  }
+  Navigation.swiper-button-prev {
+    display: none;
+  }
 }
