@@ -23,6 +23,8 @@ export const NavLinks: React.FC<NavLinksProps> = ({}) => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  let resumeURL = "https://www.canva.com/design/DAFe48gVHUw/peIjbospFpI7OdNlL18CDA/view?utm_content=DAFe48gVHUw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink";
+
 
   return (
     <div className={styles.headerNav}>
@@ -34,7 +36,7 @@ export const NavLinks: React.FC<NavLinksProps> = ({}) => {
         <Link className={styles.navLink} href={'#why-company'}>Why Company</Link>
         <Link className={styles.navLink} href={'#why-me'}>Why Me</Link>
         <Link className={styles.navLink} href={'#skills'}>Skills</Link>
-        <a className={styles.navLink} href='#' target='_blank' rel="noreferrer noopener">Resume</a>
+        <a className={styles.navLink} href={resumeURL} target='_blank' rel="noreferrer noopener">Resume</a>
         </nav>}
         {showHamburger && <OffcanvasMenu placement={"end"}/>}
     </div>

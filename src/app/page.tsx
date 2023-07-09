@@ -6,6 +6,7 @@ import { WelcomeHeader } from '../../components/WelcomeHeader';
 import { About } from '../../components/About';
 import { Projects } from '../../components/Projects.js';
 import { Footer } from '../../components/Footer';
+import { WhyCompany } from '../../components/WhyCompany';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <WelcomeHeader></WelcomeHeader>
       <About></About>
       <Projects></Projects>
+      <WhyCompany></WhyCompany>
       <Footer></Footer>
     </div>
   )

@@ -119,7 +119,7 @@ const Slide = () => {
 // export const Projects: React.FC<ProjectsProps> = ({}) => {
 export const Projects = () => {
   return (
-    <div className={styles.projectsContainer}>
+    <div className={styles.projectsContainer} id='projects'>
       <div className={styles.projectsSpacer} />
       <h2 className={styles.projectsHeader}>Projects</h2>
       <div className={styles.slideshowContainer}>

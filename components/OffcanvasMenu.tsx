@@ -20,6 +20,8 @@ export default function OffCanvasExample({...props }) {
   const handleClose = () => setShow(false);
   const toggleShow = () => setShow((s) => !s);
 
+  let resumeURL = "https://www.canva.com/design/DAFe48gVHUw/peIjbospFpI7OdNlL18CDA/view?utm_content=DAFe48gVHUw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink";
+
   return (
     <>
       <div className={styles.burgerBar}>
@@ -37,7 +39,7 @@ export default function OffCanvasExample({...props }) {
               <Link className={styles.navLinkCanvas} href={'#why-company'}>Why Company</Link>
               <Link className={styles.navLinkCanvas} href={'#why-me'}>Why Me</Link>
               <Link className={styles.navLinkCanvas} href={'#skills'}>Skills</Link>
-              <a className={styles.navLinkCanvas} href='#' target='_blank' rel="noreferrer noopener">Resume</a>
+              <a className={styles.navLinkCanvas} href={resumeURL} target='_blank' rel="noreferrer noopener">Resume</a>
           
           </div>
         </Offcanvas.Body>
