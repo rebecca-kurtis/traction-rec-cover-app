@@ -7,6 +7,7 @@ import { About } from '../../components/About';
 import { Projects } from '../../components/Projects.js';
 import { Footer } from '../../components/Footer';
 import { WhyCompany } from '../../components/WhyCompany';
+import { WhyMe } from '../../components/WhyMe';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <About></About>
       <Projects></Projects>
       <WhyCompany></WhyCompany>
+      <WhyMe></WhyMe>
       <Footer></Footer>
     </div>
   )

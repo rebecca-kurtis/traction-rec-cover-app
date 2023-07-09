@@ -5,7 +5,7 @@ interface WhyCompanyProps {}
 
 export const WhyCompany: React.FC<WhyCompanyProps> = ({}) => {
   return (
-    <div className={styles.whyCompanyContainer}>
+    <div className={styles.whyCompanyContainer} id='why-company'>
       <h2 className={styles.whyContainerH2}>What I love about the Company</h2>
       <p>Here are some fact that I really like about the Company:</p>
       <div className={styles.pointContainerSpacer}></div>

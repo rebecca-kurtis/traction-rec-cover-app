@@ -1,0 +1,12 @@
+@import '../src/app/page.module.scss';
+
+.cardBodyContainer {
+  color: $white;
+}
+
+.cardContainer {
+  border-color: $darkestGreen;
+  background-color: $darkestGreen;
+  width: 30%;
+  padding: 10px;
+}
