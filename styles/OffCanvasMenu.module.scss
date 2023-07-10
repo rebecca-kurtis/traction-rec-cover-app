@@ -2,11 +2,12 @@
 
 .offCanvasMenu {
   max-width: 250px;
-  background-image: url("/images/Flower-background-vertical.png");
+  background-image: url("/public/images/flower-background-vertical.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: $sageGreen;
   color: $white;
+  z-index: 10;
 }
 
 .offcanvasMenuList {
