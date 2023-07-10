@@ -21,7 +21,7 @@
 
 .whyMeHeaderColourBlock {
   height: 100px;
-  width: 35%;
+  width: 45%;
   background-color: $lightGreen;
 }
 
@@ -56,6 +56,8 @@
   .whyMePointsContainer  { 
     flex-direction: column;
   }
-
+  .whyMeHeaderColourBlock {
+    width: 35%;
+  }
 
 }
