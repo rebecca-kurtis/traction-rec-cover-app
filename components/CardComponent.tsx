@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import styles from "../src/app/page.module.scss";
+
 
 interface CardComponentProps {
   cardTitle: string;
@@ -12,10 +12,10 @@ export const CardComponent: React.FC<CardComponentProps> = ({
   cardText,
 }) => {
   return (
-    <Card className={styles.cardContainer}>
-      <Card.Body className={styles.cardBodyContainer}>
-        <Card.Title className={styles.cardTitle}>{cardTitle}</Card.Title>
-        <Card.Text className={styles.cardText}>{cardText}</Card.Text>
+    <Card className="cardContainer">
+      <Card.Body className="cardBodyContainer">
+        <Card.Title className="cardTitle">{cardTitle}</Card.Title>
+        <Card.Text className="cardText">{cardText}</Card.Text>
       </Card.Body>
     </Card>
   );

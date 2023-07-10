@@ -1,11 +1,8 @@
 "use client"
 import { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import bootstrap from 'react-bootstrap';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { FaBars } from "react-icons/fa";
 import Link from "next/link";
-import styles from "../src/app/page.module.scss";
 
 const options = [
   {
@@ -25,22 +22,22 @@ export default function OffCanvasExample({...props }) {
 
   return (
     <>
-      <div className={styles.burgerBar}>
+      <div className="burgerBar">
       <FaBars  onClick={toggleShow} size="xl" />
       </div>
-      <Offcanvas className={styles.offCanvasMenuComponent} show={show} onHide={handleClose} {...props}>
+      <Offcanvas className="offCanvasMenuComponent" show={show} onHide={handleClose} {...props}>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title className={styles.offCanvasTitle}>Menu</Offcanvas.Title>
+          <Offcanvas.Title className="offCanvasTitle">Menu</Offcanvas.Title>
         </Offcanvas.Header>
-        <Offcanvas.Body className='offcanvas-menu-list'>
-          <div className={styles.offcanvasMenuList}>
+        <Offcanvas.Body >
+          <div className="offcanvasMenuList">
     
-              <Link className={styles.navLinkCanvas} href={'#about'}>About</Link>
-              <Link className={styles.navLinkCanvas} href={'#projects'}>Projects</Link>
-              <Link className={styles.navLinkCanvas} href={'#why-company'}>Why Company</Link>
-              <Link className={styles.navLinkCanvas} href={'#why-me'}>Why Me</Link>
-              <Link className={styles.navLinkCanvas} href={'#skills'}>Skills</Link>
-              <a className={styles.navLinkCanvas} href={resumeURL} target='_blank' rel="noreferrer noopener">Resume</a>
+              <Link className="navLinkCanvas" href={'#about'}>About</Link>
+              <Link className="navLinkCanvas" href={'#projects'}>Projects</Link>
+              <Link className="navLinkCanvas" href={'#why-company'}>Why Company</Link>
+              <Link className="navLinkCanvas" href={'#why-me'}>Why Me</Link>
+              <Link className="navLinkCanvas" href={'#skills'}>Skills</Link>
+              <a className="navLinkCanvas" href={resumeURL} target='_blank' rel="noreferrer noopener">Resume</a>
           
           </div>
         </Offcanvas.Body>

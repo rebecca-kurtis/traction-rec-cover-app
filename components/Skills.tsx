@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "../src/app/page.module.scss";
 
 //import languages icons
 import { IoLogoJavascript } from "react-icons/io";
@@ -35,41 +34,41 @@ interface SkillsProps {}
 
 export const Skills: React.FC<SkillsProps> = ({}) => {
   return (
-    <div className={styles.skillsContainer} id='skills'>
+    <div className="skillsContainer" id='skills'>
       <h2>Skills</h2>
-      <div className={styles.languagesContainer}>
+      <div>
         <p>Languages</p>
-        <IoLogoJavascript className={styles.skillIcon} />
-        <SiTypescript className={styles.skillIcon} />
-        <DiRubyRough className={styles.skillIcon} />
-        <AiFillHtml5 className={styles.skillIcon} />
-        <DiCss3 className={styles.skillIcon} />
+        <IoLogoJavascript className="skillIcon" />
+        <SiTypescript className="skillIcon" />
+        <DiRubyRough className="skillIcon" />
+        <AiFillHtml5 className="skillIcon" />
+        <DiCss3 className="skillIcon" />
       </div>
-      <div className={styles.librariesContainer}>
+      <div>
         <p>Libraries & Environments:</p>
-        <FaNodeJs className={styles.skillIcon} />
-        <GrReactjs className={styles.skillIcon} />
-        <TbBrandNextjs className={styles.skillIcon} />
-        <SiRubyonrails className={styles.skillIcon} />
-        <SiExpress className={styles.skillIcon} />
-        <SiJquery className={styles.skillIcon} />
-        <FaSass className={styles.skillIcon} />
-        <SiDotenv className={styles.skillIcon} />
-        <SiAxios className={styles.skillIcon} />
+        <FaNodeJs className="skillIcon" />
+        <GrReactjs className="skillIcon" />
+        <TbBrandNextjs className="skillIcon" />
+        <SiRubyonrails className="skillIcon" />
+        <SiExpress className="skillIcon" />
+        <SiJquery className="skillIcon" />
+        <FaSass className="skillIcon" />
+        <SiDotenv className="skillIcon" />
+        <SiAxios className="skillIcon" />
       </div>
-      <div className={styles.systemsContainer}>
+      <div>
         <p>Systems & Databases:</p>
-        <TbSql className={styles.skillIcon} />
-        <SiPostgresql className={styles.skillIcon} />
-        <BsGit className={styles.skillIcon} />
+        <TbSql className="skillIcon" />
+        <SiPostgresql className="skillIcon" />
+        <BsGit className="skillIcon" />
       </div>
-      <div className={styles.testingContainer}>
+      <div>
         <p>Testing:</p>
-        <SiMocha className={styles.skillIcon} />
-        <SiChai className={styles.skillIcon} />
-        <SiJest className={styles.skillIcon} />
-        <SiStorybook className={styles.skillIcon} />
-        <SiCypress className={styles.skillIcon} />
+        <SiMocha className="skillIcon" />
+        <SiChai className="skillIcon" />
+        <SiJest className="skillIcon" />
+        <SiStorybook className="skillIcon" />
+        <SiCypress className="skillIcon" />
       </div>
      
     </div>

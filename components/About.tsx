@@ -1,17 +1,15 @@
 import React from 'react';
 import Image from 'next/image';
-import styles from "../src/app/page.module.scss";
-
 interface AboutProps {
 
 }
 
 export const About: React.FC<AboutProps> = ({}) => {
     return (
-      <div className={styles.aboutContainer} id='about'>
+      <div className="aboutContainer" id='about'>
        
-        <div className={styles.aboutTextBlock}>
-          <div className={styles.aboutMeSpacer}></div>
+        <div className="aboutTextBlock">
+          <div className="aboutMeSpacer"></div>
           <h2>About Me</h2>
           <p>My name is Rebecca and I am a full-stack developer. </p>
 
@@ -21,11 +19,10 @@ export const About: React.FC<AboutProps> = ({}) => {
 
           <p> I discovered Lighthouse Labs, where I took their Web Development Bootcamp. I honestly loved every moment of it. The highs of figuring out a piece of code and the moments of challenge to figure out any issues I was having. It became all I talked about for a bit (sorry friends)! It was less like work or school and more something I did for fun. I am incredibly grateful to have gained this experience and can&apos;t wait to see where my new skills take me!</p>
         </div>
-        <div className={styles.aboutImageBlock}>
+        <div className="aboutImageBlock">
           <Image
-                
                 src="/images/AboutMe_Rebecca.jpeg"
-                className={styles.aboutImage}
+                className="aboutImage"
                 width={690}
                 height={750}
                 alt="rebecca"

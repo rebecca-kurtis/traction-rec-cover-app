@@ -1,7 +1,6 @@
 "use client"
 import React, { useState, useEffect } from 'react';
 import Link from "next/link";
-import styles from "../src/app/page.module.scss";
 import OffcanvasMenu from "./OffcanvasMenu";
 
 interface NavLinksProps {}
@@ -26,16 +25,16 @@ export const NavLinks: React.FC<NavLinksProps> = ({}) => {
 
 
   return (
-    <div className={styles.headerNav}>
+    <div className="headerNav">
 
 {!showHamburger && 
         <nav>
-        <Link className={styles.navLink} href={'#about'}>About</Link>
-        <Link className={styles.navLink} href={'#projects'}>Projects</Link>
-        <Link className={styles.navLink} href={'#why-company'}>Why Company</Link>
-        <Link className={styles.navLink} href={'#why-me'}>Why Me</Link>
-        <Link className={styles.navLink} href={'#skills'}>Skills</Link>
-        <a className={styles.navLink} href={resumeURL} target='_blank' rel="noreferrer noopener">Resume</a>
+        <Link className="navLink" href={'#about'}>About</Link>
+        <Link className="navLink" href={'#projects'}>Projects</Link>
+        <Link className="navLink" href={'#why-company'}>Why Company</Link>
+        <Link className="navLink" href={'#why-me'}>Why Me</Link>
+        <Link className="navLink" href={'#skills'}>Skills</Link>
+        <a className="navLink" href={resumeURL} target='_blank' rel="noreferrer noopener">Resume</a>
         </nav>}
         {showHamburger && <OffcanvasMenu placement={"end"}/>}
     </div>

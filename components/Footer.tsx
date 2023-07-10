@@ -1,10 +1,7 @@
 import React from 'react';
-import styles from "../src/app/page.module.scss";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
-
-
 
 
 interface FooterProps {
@@ -17,14 +14,14 @@ export const Footer: React.FC<FooterProps> = ({}) => {
   let emailUrl = "mailto:reakurtis@gmail.com";
 
     return (
-      <div className={styles.footerContainer}>
-        <div className={styles.footerIconContainer}>
-         <a href={linkedInUrl} target="__blank" > <FaLinkedin className={styles.footerIcons} /></a>
-         <a href={githubUrl} target="__blank" > <FaGithub className={styles.footerIcons} /></a>
-         <a href={emailUrl} target="__blank" > <AiOutlineMail className={styles.footerIcons} /></a>
+      <div className="footerContainer">
+        <div className="footerIconContainer">
+         <a href={linkedInUrl} target="__blank" > <FaLinkedin className="footerIcons" /></a>
+         <a href={githubUrl} target="__blank" > <FaGithub className="footerIcons" /></a>
+         <a href={emailUrl} target="__blank" > <AiOutlineMail className="footerIcons" /></a>
         </div>
-        <div className={styles.footerCopyrightContainer}>
-        <p className={styles.copyrightText}>© 2023 Rebecca Kurtis</p>
+        <div className="footerCopyrightContainer">
+        <p>© 2023 Rebecca Kurtis</p>
         </div>
         
       </div>

@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import styles from "../src/app/page.module.scss";
 
 // import { Slide } from 'react-slideshow-image';
 import "react-slideshow-image/dist/styles.css";
@@ -40,7 +39,7 @@ const Slide = () => {
           }
         >
           <Image
-            className={styles.slideImage}
+            className="slideImage"
             src="/images/Homepage.png"
             alt=""
             width={1200}
@@ -61,7 +60,7 @@ const Slide = () => {
           }
         >
           <Image
-            className={styles.slideImage}
+            className="slideImage"
             src="/images/Main-scheduler-page.png"
             alt=""
             width={1200}
@@ -82,7 +81,7 @@ const Slide = () => {
           }
         >
           <Image
-            className={styles.slideImage}
+            className="slideImage"
             src="/images/quizhoot-homepage1.png"
             alt=""
             width={1200}
@@ -102,7 +101,7 @@ const Slide = () => {
           }
         >
           <Image
-            className={styles.slideImage}
+            className="slideImage"
             src="/images/Tweeter-homepage.png"
             alt=""
             width={1200}
@@ -119,13 +118,13 @@ const Slide = () => {
 // export const Projects: React.FC<ProjectsProps> = ({}) => {
 export const Projects = () => {
   return (
-    <div className={styles.projectsContainer} id='projects'>
-      <div className={styles.projectsSpacer} />
-      <h2 className={styles.projectsHeader}>Projects</h2>
-      <div className={styles.slideshowContainer}>
-        <Slide className={styles.slideshow} />
+    <div className="projectsContainer" id='projects'>
+      <div className="projectsSpacer" />
+      <h2 className="projectsHeader">Projects</h2>
+      <div className="slideshowContainer">
+        <Slide className="slideshow" />
       </div>
-      <div className={styles.projectsSpacer} />
+      <div className="projectsSpacer" />
     </div>
   );
 };
