@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import styles from "../styles/Header.module.scss";
+import styles from "../src/app/page.module.scss";
 import { NavLinks } from "./NavLinks";
 import OffcanvasMenu from "./OffcanvasMenu";
 // import { HamburgerMenu } from './HamburgerMenu';

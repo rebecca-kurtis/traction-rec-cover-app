@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { FaBars } from "react-icons/fa";
 import Link from "next/link";
-import styles from "../styles/OffCanvasMenu.module.scss";
+import styles from "../src/app/page.module.scss";
 
 const options = [
   {
