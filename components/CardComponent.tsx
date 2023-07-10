@@ -14,8 +14,8 @@ export const CardComponent: React.FC<CardComponentProps> = ({
   return (
     <Card className={styles.cardContainer}>
       <Card.Body className={styles.cardBodyContainer}>
-        <Card.Title>{cardTitle}</Card.Title>
-        <Card.Text>{cardText}</Card.Text>
+        <Card.Title className={styles.cardTitle}>{cardTitle}</Card.Title>
+        <Card.Text className={styles.cardText}>{cardText}</Card.Text>
       </Card.Body>
     </Card>
   );
