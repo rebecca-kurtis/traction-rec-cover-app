@@ -1,6 +1,7 @@
 "use client"
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
+import bootstrap from 'react-bootstrap';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { FaBars } from "react-icons/fa";
 import Link from "next/link";
