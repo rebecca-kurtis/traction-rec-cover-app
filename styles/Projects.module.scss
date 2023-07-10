@@ -1,83 +1,68 @@
-@import '../src/app/page.module.scss';
+// @import '../src/app/page.module.scss';
 
-.projectsContainer {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  height: fit-content;
-  background-color: $darkGreen;
-  color: $white;
-}
+// .projectsContainer {
+//   display: flex;
+//   flex-direction: column;
+//   width: 100%;
+//   justify-content: center;
+//   align-items: center;
+//   height: fit-content;
+//   background-color: $darkGreen;
+//   color: $white;
+// }
 
-.slideshowContainer {
-  width: 1200px;
-  max-height: fit-content;
-  justify-content: center;
-  align-items: center;
-}
+// .slideshowContainer {
+//   width: 1200px;
+//   max-height: fit-content;
+//   justify-content: center;
+//   align-items: center;
+// }
 
-.projectsHeader {
-  font-family: $headerFont;
-  text-align: center;
-  letter-spacing: 1.3px;
-  font-size: 45px;
-}
+// .projectsHeader {
+//   font-family: $headerFont;
+//   text-align: center;
+//   letter-spacing: 1.3px;
+//   font-size: 45px;
+// }
 
-.slideImage{
-  object-fit: contain;
-  justify-content: center;
-  align-items: center;
-}
+// .slideImage{
+//   object-fit: contain;
+//   justify-content: center;
+//   align-items: center;
+// }
 
-.projectsSpacer {
-  height: 100px;
-}
+// .projectsSpacer {
+//   height: 100px;
+// }
 
-div.swiper-button-next, div.swiper-button-prev {
-  color:$forestGreen;
-}
+// div.swiper-button-next, div.swiper-button-prev {
+//   color:$forestGreen;
+// }
 
-//mobile styling
-@media only screen and (max-width: 979.99px) {
+// //mobile styling
+// @media only screen and (max-width: 979.99px) {
 
-  .projectsContainer {
-    display: flex;
-    flex-direction: column;
-    // height: fit-content;
-    // width: 100%;
-  }
+//   .projectsContainer {
+//     display: flex;
+//     flex-direction: column;
+//     // height: fit-content;
+//     // width: 100%;
+//   }
 
-  .slideshowContainer {
-    // justify-content: center;
-    // align-items: center;
-    // align-content: center;
-    // position: relative;
-    width: 300px;
-    // object-fit: contain;
-    // width:max-content;
-    // width: min-content;
-    // height: auto;
-    // max-height: fit-content;
-  }
+//   .slideshowContainer {
+//     width: 300px;
+//   }
 
-  .slideImage{
-    justify-content: center;
-    align-content: center;
-    // object-fit: none;
-    width: 300px;
-    height: 300px;
-    // width: auto;
-    // height: auto;
-  }
-  div.swiper-button-prev {
-    display: none;
-  }
-  div.swiper-button-next {
-    display: none;
-  }
-  // Navigation.swiper-button-prev {
-  //   display: none;
-  // }
-}
+//   .slideImage{
+//     justify-content: center;
+//     align-content: center;
+//     width: 300px;
+//     height: 300px;
+//   }
+//   div.swiper-button-prev {
+//     display: none;
+//   }
+//   div.swiper-button-next {
+//     display: none;
+//   }
+// }

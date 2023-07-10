@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import styles from "../styles/WhyMe.module.scss";
+import styles from "../src/app/page.module.scss";
 import { CardComponent } from "./CardComponent";
 
 interface WhyMeProps {}

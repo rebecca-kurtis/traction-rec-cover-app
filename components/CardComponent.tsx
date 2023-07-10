@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import styles from "../styles/CardComponent.module.scss";
+import styles from "../src/app/page.module.scss";
 
 interface CardComponentProps {
   cardTitle: string;

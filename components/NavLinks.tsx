@@ -1,8 +1,7 @@
 "use client"
 import React, { useState, useEffect } from 'react';
 import Link from "next/link";
-import styles from "../styles/Header.module.scss";
-import { FaBars } from "react-icons/fa";
+import styles from "../src/app/page.module.scss";
 import OffcanvasMenu from "./OffcanvasMenu";
 
 interface NavLinksProps {}

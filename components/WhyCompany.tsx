@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/WhyCompany.module.scss";
+import styles from "../src/app/page.module.scss";
 
 interface WhyCompanyProps {}
 

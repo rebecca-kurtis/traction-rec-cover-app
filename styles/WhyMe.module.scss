@@ -1,63 +1,63 @@
-@import '../src/app/page.module.scss';
+// @import '../src/app/page.module.scss';
 
-.whyMeContainer {
-  display: flex;
-  height: fit-content;
-  color: $white;
-  flex-direction: column;
-  height: fit-content;
-  background-color: $darkGreen;
-  padding: 20px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+// .whyMeContainer {
+//   display: flex;
+//   height: fit-content;
+//   color: $white;
+//   flex-direction: column;
+//   height: fit-content;
+//   background-color: $darkGreen;
+//   padding: 20px;
+//   padding-top: 100px;
+//   padding-bottom: 100px;
 
-}
+// }
 
-.whyMeHeader {
-  display: flex;
-  flex-direction: row;
-  height: fit-content;
-}
+// .whyMeHeader {
+//   display: flex;
+//   flex-direction: row;
+//   height: fit-content;
+// }
 
-.whyMeHeaderColourBlock {
-  height: 100px;
-  width: 45%;
-  background-color: $lightGreen;
-}
+// .whyMeHeaderColourBlock {
+//   height: 100px;
+//   width: 45%;
+//   background-color: $lightGreen;
+// }
 
-.whyMeHeaderTextBlock {
-  font-family: $headerFont;
-  letter-spacing: 1.3px;
-  font-size: 45px;
-  padding-top: 15px;
-  padding-left: 25px;
-}
+// .whyMeHeaderTextBlock {
+//   font-family: $headerFont;
+//   letter-spacing: 1.3px;
+//   font-size: 45px;
+//   padding-top: 15px;
+//   padding-left: 25px;
+// }
 
-.whyMeSpacer {
-  height: 50px;
-}
+// .whyMeSpacer {
+//   height: 50px;
+// }
 
-.whyMePointsContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 10px;
-}
+// .whyMePointsContainer {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: center;
+//   padding: 10px;
+// }
 
-.whyMePointsContainerSpacer {
-  width: 25px;
-  height: 25px;
+// .whyMePointsContainerSpacer {
+//   width: 25px;
+//   height: 25px;
 
-}
+// }
 
-//mobile styling
-@media only screen and (max-width: 869px) { 
+// //mobile styling
+// @media only screen and (max-width: 869px) { 
 
-  .whyMePointsContainer  { 
-    flex-direction: column;
-  }
-  .whyMeHeaderColourBlock {
-    width: 35%;
-  }
+//   .whyMePointsContainer  { 
+//     flex-direction: column;
+//   }
+//   .whyMeHeaderColourBlock {
+//     width: 35%;
+//   }
 
-}
+// }

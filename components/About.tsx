@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import styles from "../styles/About.module.scss";
+import styles from "../src/app/page.module.scss";
 
 interface AboutProps {
 

@@ -1,35 +1,35 @@
-@import '../src/app/page.module.scss';
+// @import '../src/app/page.module.scss';
 
-.offCanvasMenu {
-  max-width: 250px;
-  background-image: url("/public/images/flower-background-vertical.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: $sageGreen;
-  color: $white;
-  z-index: 10;
-}
+// .offCanvasMenu {
+//   max-width: 250px;
+//   background-image: url("/public/images/flower-background-vertical.png");
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-color: $sageGreen;
+//   color: $white;
+//   z-index: 10;
+// }
 
-.offcanvasMenuList {
-  display: flex;
-  flex-direction: column;
-}
+// .offcanvasMenuList {
+//   display: flex;
+//   flex-direction: column;
+// }
 
-.burgerBar {
-  height: 30px;
-  padding-right: 10px;
-}
+// .burgerBar {
+//   height: 30px;
+//   padding-right: 10px;
+// }
 
-.offCanvasTitle {
-  font-family: $headerFont;
-  font-size: 35px;
-  letter-spacing: 1.3px;
-}
+// .offCanvasTitle {
+//   font-family: $headerFont;
+//   font-size: 35px;
+//   letter-spacing: 1.3px;
+// }
 
-.navLinkCanvas {
-  padding: 10px;
-  color: $white;
-  text-decoration: none;
-  font-family: $paragraphFont;
-  font-size: 18px;
-}
+// .navLinkCanvas {
+//   padding: 10px;
+//   color: $white;
+//   text-decoration: none;
+//   font-family: $paragraphFont;
+//   font-size: 18px;
+// }

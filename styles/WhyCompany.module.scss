@@ -1,47 +1,47 @@
-@import '../src/app/page.module.scss';
+// @import '../src/app/page.module.scss';
 
 
-.whyCompanyContainer {
-  display: flex;
-  height: fit-content;
-  color: $white;
-  background-color: $sageGreen;
-  flex-direction: column;
-  padding: 80px;
-}
+// .whyCompanyContainer {
+//   display: flex;
+//   height: fit-content;
+//   color: $white;
+//   background-color: $sageGreen;
+//   flex-direction: column;
+//   padding: 80px;
+// }
 
-.whyCompanyContainer p {
-  font-family: $paragraphFont;
-  font-size: 18px;
-}
+// .whyCompanyContainer p {
+//   font-family: $paragraphFont;
+//   font-size: 18px;
+// }
 
-.whyContainerH2 {
-  font-family: $headerFont;
-  letter-spacing: 1.3px;
-  font-size: 45px;
-}
+// .whyContainerH2 {
+//   font-family: $headerFont;
+//   letter-spacing: 1.3px;
+//   font-size: 45px;
+// }
 
-.whyContainerH4 {
-  font-family: $paragraphFont;
-  font-weight: 800;
-  font-size: 26px;
-}
+// .whyContainerH4 {
+//   font-family: $paragraphFont;
+//   font-weight: 800;
+//   font-size: 26px;
+// }
 
-.pointContainer {
-  background-color: $lightBeige;
-  color: $darkestGreen;
-  padding: 15px;
-}
+// .pointContainer {
+//   background-color: $lightBeige;
+//   color: $darkestGreen;
+//   padding: 15px;
+// }
 
-.pointContainerSpacer {
-  height: 30px;
-}
+// .pointContainerSpacer {
+//   height: 30px;
+// }
 
-//mobile styling
-@media only screen and (max-width: 869px) { 
+// //mobile styling
+// @media only screen and (max-width: 869px) { 
 
-  .whyCompanyContainer {
-    padding: 40px;
-  }
+//   .whyCompanyContainer {
+//     padding: 40px;
+//   }
 
-}
+// }

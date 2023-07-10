@@ -1,83 +1,83 @@
-@import '../src/app/page.module.scss';
+// @import '../src/app/page.module.scss';
 
-.welcomeHeader {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 90vh;
-}
+// .welcomeHeader {
+//   display: flex;
+//   flex-direction: row;
+//   width: 100%;
+//   height: 90vh;
+// }
 
-.welcomeImageBlock {
-  display: flex;
-  width: 50%;
-}
+// .welcomeImageBlock {
+//   display: flex;
+//   width: 50%;
+// }
 
-.welcomeImage {
-  max-width: 50%;
-  max-height: 90vh;
-}
+// .welcomeImage {
+//   max-width: 50%;
+//   max-height: 90vh;
+// }
 
-.welcomeTextBlock {
-  display: flex;  
-  flex-direction: column;
-  justify-content: center;
-  font-family: $paragraphFont;
-  align-items: center;
-  width: 50%;
-  background-color: $darkGreen;
-  color: $white;
-}
+// .welcomeTextBlock {
+//   display: flex;  
+//   flex-direction: column;
+//   justify-content: center;
+//   font-family: $paragraphFont;
+//   align-items: center;
+//   width: 50%;
+//   background-color: $darkGreen;
+//   color: $white;
+// }
 
-.welcomeTextBlock h1 {
-  font-family: $headerFont;
-  text-align: center;
-  letter-spacing: 1.3px;
-  font-size: 55px;
-}
+// .welcomeTextBlock h1 {
+//   font-family: $headerFont;
+//   text-align: center;
+//   letter-spacing: 1.3px;
+//   font-size: 55px;
+// }
 
-.welcomeTextBlock h3 { 
-  font-weight: 900;
-  font-style: italic;
-  padding-bottom: 20px;
-}
+// .welcomeTextBlock h3 { 
+//   font-weight: 900;
+//   font-style: italic;
+//   padding-bottom: 20px;
+// }
 
-.welcomeTextBlock p {
-  padding: 20px;
-  text-align: center;
-  font-size: 20px;
-}
+// .welcomeTextBlock p {
+//   padding: 20px;
+//   text-align: center;
+//   font-size: 20px;
+// }
 
-.learnMore {
-  text-decoration: none;
-  padding: 10px;
-  color: $darkestGreen;
-  box-shadow: 4px 4px  $white;
-  border-radius: 10px;
-  border-color: $white;
-  background-color: $lightBeige;
-}
+// .learnMore {
+//   text-decoration: none;
+//   padding: 10px;
+//   color: $darkestGreen;
+//   box-shadow: 4px 4px  $white;
+//   border-radius: 10px;
+//   border-color: $white;
+//   background-color: $lightBeige;
+// }
 
-.spacer {
-  height: 150px;
-}
+// .spacer {
+//   height: 150px;
+// }
 
-//mobile styling
+// //mobile styling
 
-@media only screen and (max-width: 850px) {
+// @media only screen and (max-width: 850px) {
 
-  .welcomeHeader {
-    height: 800px;
-  }
-  .welcomeImage {
-    max-width: 100%;
-    min-height: 800px;
-  }
+//   .welcomeHeader {
+//     height: 800px;
+//   }
+//   .welcomeImage {
+//     max-width: 100%;
+//     min-height: 800px;
+//   }
 
-  .welcomeTextBlock {
-    width: 100%;
-    position: absolute;
-    z-index: 10;
-    background-color: transparent;
-    padding-top: 80px;
-  }
-}
+//   .welcomeTextBlock {
+//     width: 100%;
+//     position: absolute;
+//     z-index: 10;
+//     background-color: transparent;
+//     padding-top: 80px;
+//   }
+// }

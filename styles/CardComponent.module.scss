@@ -1,39 +1,39 @@
-@import '../src/app/page.module.scss';
+// @import '../src/app/page.module.scss';
 
 
-.cardContainer {
-  border-color: $darkestGreen;
-  background-color: $darkestGreen;
-  background-image: url("/images/Flower-background-updated.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 30%;
-  padding: 10px;
-  height: 350px;
-  font-family: $paragraphFont;
-  text-align: center;
-}
+// .cardContainer {
+//   border-color: $darkestGreen;
+//   background-color: $darkestGreen;
+//   background-image: url("/images/Flower-background-updated.png");
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   width: 30%;
+//   padding: 10px;
+//   height: 350px;
+//   font-family: $paragraphFont;
+//   text-align: center;
+// }
 
-.cardBodyContainer {
-  color: $white;
-}
+// .cardBodyContainer {
+//   color: $white;
+// }
 
-.cardTitle {
-  font-size: 23px;
-  font-weight: 700;
-  padding-top: 15px;
-}
+// .cardTitle {
+//   font-size: 23px;
+//   font-weight: 700;
+//   padding-top: 15px;
+// }
 
-.cardText {
-  font-size: 18px;
-}
+// .cardText {
+//   font-size: 18px;
+// }
 
 
-//mobile styling
-@media only screen and (max-width: 869px) { 
+// //mobile styling
+// @media only screen and (max-width: 869px) { 
 
-  .cardContainer {
-    width: 100%;
-    height: fit-content;
-  }
-}
+//   .cardContainer {
+//     width: 100%;
+//     height: fit-content;
+//   }
+// }

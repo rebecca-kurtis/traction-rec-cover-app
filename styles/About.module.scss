@@ -1,95 +1,95 @@
-@import '../src/app/page.module.scss';
+// @import '../src/app/page.module.scss';
 
-.aboutContainer {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 95vh;
-  background-color: $sageGreen;
-}
+// .aboutContainer {
+//   display: flex;
+//   flex-direction: row;
+//   width: 100%;
+//   height: 95vh;
+//   background-color: $sageGreen;
+// }
 
-.aboutImageBlock {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  justify-content: center;
-}
+// .aboutImageBlock {
+//   display: flex;
+//   flex-direction: column;
+//   width: 50%;
+//   justify-content: center;
+// }
 
-.aboutImage {
-  object-fit: cover;
-  position: relative;
-  align-self: center;
-  box-shadow: 4px 4px 2px 1px $darkGreen;
-}
+// .aboutImage {
+//   object-fit: cover;
+//   position: relative;
+//   align-self: center;
+//   box-shadow: 4px 4px 2px 1px $darkGreen;
+// }
 
-.aboutTextBlock {
+// .aboutTextBlock {
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: $white;
-  width: 50%;
-}
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   color: $white;
+//   width: 50%;
+// }
 
-.aboutMeSpacer {
-  height: 100px;
-}
+// .aboutMeSpacer {
+//   height: 100px;
+// }
 
-.aboutTextBlock h2{
-  font-family: $headerFont;
-  text-align: center;
-  letter-spacing: 1.3px;
-  font-size: 45px;
+// .aboutTextBlock h2{
+//   font-family: $headerFont;
+//   text-align: center;
+//   letter-spacing: 1.3px;
+//   font-size: 45px;
   
-}
+// }
 
-.aboutTextBlock p { 
-  text-align: center;
-  padding: 10px;
-  padding-left: 30px;
-  font-size: 18px;
-  font-family: $paragraphFont;
+// .aboutTextBlock p { 
+//   text-align: center;
+//   padding: 10px;
+//   padding-left: 30px;
+//   font-size: 18px;
+//   font-family: $paragraphFont;
   
-}
+// }
 
-//mobile styling
+// //mobile styling
 
-@media only screen and (max-width: 979.99px) { 
-  .aboutContainer {
-    display: flex;
-    flex-direction: column;
-    height: fit-content;
-  }
+// @media only screen and (max-width: 979.99px) { 
+//   .aboutContainer {
+//     display: flex;
+//     flex-direction: column;
+//     height: fit-content;
+//   }
 
-  .aboutTextBlock {
-    width: 100%;
-  }
+//   .aboutTextBlock {
+//     width: 100%;
+//   }
 
-  .aboutImageBlock { 
-    width: 100%;
-    padding-bottom: 30px;
-  }
+//   .aboutImageBlock { 
+//     width: 100%;
+//     padding-bottom: 30px;
+//   }
 
-  .aboutImage {
-    max-width: 350px;
-    max-height: 500px;
-  }  
-}
+//   .aboutImage {
+//     max-width: 350px;
+//     max-height: 500px;
+//   }  
+// }
 
 
-@media only screen and (min-width: 980px) and (max-width: 1400px) { 
-  .aboutContainer {
-    height: fit-content;
-  }
+// @media only screen and (min-width: 980px) and (max-width: 1400px) { 
+//   .aboutContainer {
+//     height: fit-content;
+//   }
   
-  .aboutImageBlock {
-    display: flex;
-    width: 50%;
-    padding-left: 25px;
-    justify-content: center;
-  }
-  .aboutImage {
-    max-width: 500px;
-    max-height: 600px;
-  }  
- }
+//   .aboutImageBlock {
+//     display: flex;
+//     width: 50%;
+//     padding-left: 25px;
+//     justify-content: center;
+//   }
+//   .aboutImage {
+//     max-width: 500px;
+//     max-height: 600px;
+//   }  
+//  }

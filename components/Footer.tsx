@@ -1,8 +1,5 @@
 import React from 'react';
-import styles from "../styles/Footer.module.scss";
-import Image from "next/image";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faLinkedIn } from '';
+import styles from "../src/app/page.module.scss";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";

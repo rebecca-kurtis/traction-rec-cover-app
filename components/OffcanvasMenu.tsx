@@ -28,7 +28,7 @@ export default function OffCanvasExample({...props }) {
       <div className={styles.burgerBar}>
       <FaBars  onClick={toggleShow} size="xl" />
       </div>
-      <Offcanvas className={styles.offCanvasMenu} show={show} onHide={handleClose} {...props}>
+      <Offcanvas className={styles.offCanvasMenuComponent} show={show} onHide={handleClose} {...props}>
         <Offcanvas.Header closeButton>
           <Offcanvas.Title className={styles.offCanvasTitle}>Menu</Offcanvas.Title>
         </Offcanvas.Header>

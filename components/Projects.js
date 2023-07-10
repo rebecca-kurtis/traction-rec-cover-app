@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import styles from "../styles/Projects.module.scss";
+import styles from "../src/app/page.module.scss";
 
 // import { Slide } from 'react-slideshow-image';
 import "react-slideshow-image/dist/styles.css";

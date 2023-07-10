@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/Skills.module.scss";
+import styles from "../src/app/page.module.scss";
 
 //import languages icons
 import { IoLogoJavascript } from "react-icons/io";

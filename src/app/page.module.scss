@@ -1,36 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&family=Shrikhand&display=swap');
 @import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css');
-// @import url('/styles/fonts.css');
+// @import '~bootstrap/scss/bootstrap';
+// @import "../node_modules/bootstrap/scss/bootstrap";
 
+// @import 'bootstrap/dist/css/bootstrap.min.css';
+// Custom.scss
+// Option B: Include parts of Bootstrap
 
-// @font-face {
-//   font-family: 'Shrikhand';
-//   font-style: normal;
-//   font-weight: 400;
-//   font-display: swap;
-//   src: url(https://fonts.gstatic.com/s/shrikhand/v12/a8IbNovtLWfR7T7bMJwrDYKR8Ttcte1q.woff2) format('woff2');
-//   unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-// }
+// // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+// @import "../node_modules/bootstrap/scss/functions";
 
-// @font-face {
-//   font-family: 'Shrikhand';
-//   // font-style: normal;
-//   // font-weight: 400;
-//   // font-display: swap;
-//   src: url("/public/fonts/Shrikhand-Regular.ttf");
-// }
+// // 2. Include any default variable overrides here
 
-// @font-face {
-//   font-family: 'Montserrat';
-//   font-style: normal;
-//   font-weight: 300;
-//   font-display: swap;
-//   src: url("/public/fonts/Montserrat-VariableFont_wght.ttf") format('ttf');
-// }
+// // 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
+// @import "../node_modules/bootstrap/scss/variables";
+// @import "../node_modules/bootstrap/scss/variables-dark";
+
+// // 4. Include any default map overrides here
+
+// // 5. Include remainder of required parts
+// @import "../node_modules/bootstrap/scss/maps";
+// @import "../node_modules/bootstrap/scss/mixins";
+// @import "../node_modules/bootstrap/scss/root";
+
+// // 6. Optionally include any other parts as needed
+// @import "../node_modules/bootstrap/scss/utilities";
+// @import "../node_modules/bootstrap/scss/reboot";
+// @import "../node_modules/bootstrap/scss/type";
+// @import "../node_modules/bootstrap/scss/images";
+// @import "../node_modules/bootstrap/scss/containers";
+// @import "../node_modules/bootstrap/scss/grid";
+// @import "../node_modules/bootstrap/scss/helpers";
+
+// // 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+// @import "../node_modules/bootstrap/scss/utilities/api";
+
+// // 8. Add additional custom code here
 
 $headerFont: 'Shrikhand', cursive;
-// $headerFont: 'Shrikhand';
-
 $paragraphFont: 'Montserrat', sans-serif;
 $darkestGreen: #052622;
 $darkGreen: #0e3e30;
@@ -101,7 +108,7 @@ $white: #fff;
 
 //OffCanvas Menu Styling
 
-.offCanvasMenu {
+.offCanvasMenuComponent {
   max-width: 250px;
   background-image: url("/images/Flower-background-vertical.png");
   background-repeat: no-repeat;
@@ -132,4 +139,482 @@ $white: #fff;
   text-decoration: none;
   font-family: $paragraphFont;
   font-size: 18px;
+}
+
+//Welcome Header Styling
+
+.welcomeHeader {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 90vh;
+}
+
+.welcomeImageBlock {
+  display: flex;
+  width: 50%;
+}
+
+.welcomeImage {
+  max-width: 50%;
+  max-height: 90vh;
+}
+
+.welcomeTextBlock {
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  font-family: $paragraphFont;
+  align-items: center;
+  width: 50%;
+  background-color: $darkGreen;
+  color: $white;
+}
+
+.welcomeTextBlock h1 {
+  font-family: $headerFont;
+  text-align: center;
+  letter-spacing: 1.3px;
+  font-size: 55px;
+}
+
+.welcomeTextBlock h3 { 
+  font-weight: 900;
+  font-style: italic;
+  padding-bottom: 20px;
+}
+
+.welcomeTextBlock p {
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.learnMore {
+  text-decoration: none;
+  padding: 10px;
+  color: $darkestGreen;
+  box-shadow: 4px 4px  $white;
+  border-radius: 10px;
+  border-color: $white;
+  background-color: $lightBeige;
+}
+
+.spacer {
+  height: 150px;
+}
+
+//mobile styling
+
+@media only screen and (max-width: 850px) {
+
+  .welcomeHeader {
+    height: 800px;
+  }
+  .welcomeImage {
+    max-width: 100%;
+    min-height: 800px;
+  }
+
+  .welcomeTextBlock {
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    background-color: transparent;
+    padding-top: 80px;
+  }
+}
+
+//About Me styling
+.aboutContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 95vh;
+  background-color: $sageGreen;
+}
+
+.aboutImageBlock {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+}
+
+.aboutImage {
+  object-fit: cover;
+  position: relative;
+  align-self: center;
+  box-shadow: 4px 4px 2px 1px $darkGreen;
+}
+
+.aboutTextBlock {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $white;
+  width: 50%;
+}
+
+.aboutMeSpacer {
+  height: 100px;
+}
+
+.aboutTextBlock h2{
+  font-family: $headerFont;
+  text-align: center;
+  letter-spacing: 1.3px;
+  font-size: 45px;
+  
+}
+
+.aboutTextBlock p { 
+  text-align: center;
+  padding: 10px;
+  padding-left: 30px;
+  font-size: 18px;
+  font-family: $paragraphFont;
+  
+}
+
+//mobile styling
+
+@media only screen and (max-width: 979.99px) { 
+  .aboutContainer {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .aboutTextBlock {
+    width: 100%;
+  }
+
+  .aboutImageBlock { 
+    width: 100%;
+    padding-bottom: 30px;
+  }
+
+  .aboutImage {
+    max-width: 350px;
+    max-height: 500px;
+  }  
+}
+
+
+@media only screen and (min-width: 980px) and (max-width: 1400px) { 
+  .aboutContainer {
+    height: fit-content;
+  }
+  
+  .aboutImageBlock {
+    display: flex;
+    width: 50%;
+    padding-left: 25px;
+    justify-content: center;
+  }
+  .aboutImage {
+    max-width: 500px;
+    max-height: 600px;
+  }  
+ }
+
+ //Projects page styling 
+
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  background-color: $darkGreen;
+  color: $white;
+}
+
+.slideshowContainer {
+  width: 1200px;
+  max-height: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectsHeader {
+  font-family: $headerFont;
+  text-align: center;
+  letter-spacing: 1.3px;
+  font-size: 45px;
+}
+
+.slideImage{
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectsSpacer {
+  height: 100px;
+}
+
+div.swiper-button-next, div.swiper-button-prev {
+  color:$forestGreen;
+}
+
+//mobile styling
+@media only screen and (max-width: 979.99px) {
+
+  .projectsContainer {
+    display: flex;
+    flex-direction: column;
+    // height: fit-content;
+    // width: 100%;
+  }
+
+  .slideshowContainer {
+    width: 300px;
+  }
+
+  .slideImage{
+    justify-content: center;
+    align-content: center;
+    width: 300px;
+    height: 300px;
+  }
+  div.swiper-button-prev {
+    display: none;
+  }
+  div.swiper-button-next {
+    display: none;
+  }
+}
+
+//Why Company Styling
+
+.whyCompanyContainer {
+  display: flex;
+  height: fit-content;
+  color: $white;
+  background-color: $sageGreen;
+  flex-direction: column;
+  padding: 80px;
+}
+
+.whyCompanyContainer p {
+  font-family: $paragraphFont;
+  font-size: 18px;
+}
+
+.whyContainerH2 {
+  font-family: $headerFont;
+  letter-spacing: 1.3px;
+  font-size: 45px;
+}
+
+.whyContainerH4 {
+  font-family: $paragraphFont;
+  font-weight: 800;
+  font-size: 26px;
+}
+
+.pointContainer {
+  background-color: $lightBeige;
+  color: $darkestGreen;
+  padding: 15px;
+}
+
+.pointContainerSpacer {
+  height: 30px;
+}
+
+//mobile styling
+@media only screen and (max-width: 869px) { 
+
+  .whyCompanyContainer {
+    padding: 40px;
+  }
+}
+
+//Why Me Styling
+
+.whyMeContainer {
+  display: flex;
+  height: fit-content;
+  color: $white;
+  flex-direction: column;
+  height: fit-content;
+  background-color: $darkGreen;
+  padding: 20px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+.whyMeHeader {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+}
+
+.whyMeHeaderColourBlock {
+  height: 100px;
+  width: 45%;
+  background-color: $lightGreen;
+}
+
+.whyMeHeaderTextBlock {
+  font-family: $headerFont;
+  letter-spacing: 1.3px;
+  font-size: 45px;
+  padding-top: 15px;
+  padding-left: 25px;
+}
+
+.whyMeSpacer {
+  height: 50px;
+}
+
+.whyMePointsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+
+.whyMePointsContainerSpacer {
+  width: 25px;
+  height: 25px;
+
+}
+
+//mobile styling
+@media only screen and (max-width: 869px) { 
+
+  .whyMePointsContainer  { 
+    flex-direction: column;
+  }
+  .whyMeHeaderColourBlock {
+    width: 35%;
+  }
+
+}
+
+//CardComponent Styling
+.cardContainer {
+  border-color: $darkestGreen;
+  background-color: $darkestGreen;
+  background-image: url("/images/Flower-background-updated.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30%;
+  padding: 10px;
+  height: 350px;
+  font-family: $paragraphFont;
+  text-align: center;
+}
+
+.cardBodyContainer {
+  color: $white;
+}
+
+.cardTitle {
+  font-size: 23px;
+  font-weight: 700;
+  padding-top: 15px;
+}
+
+.cardText {
+  font-size: 18px;
+}
+
+
+//mobile styling
+@media only screen and (max-width: 869px) { 
+
+  .cardContainer {
+    width: 100%;
+    height: fit-content;
+  }
+}
+
+//Skills Styling
+
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  color: $white;
+  justify-content: center;
+  align-items: center;
+  background-color: $sageGreen;
+  padding: 50px;
+  background-image: url("/images/Flower-background.png");
+  background-size: contain;
+}
+
+.skillsContainer h2 {
+  font-family: $headerFont;
+  text-align: center;
+  letter-spacing: 1.3px;
+  font-size: 45px;
+}
+
+.skillsContainer p {
+  font-family: $paragraphFont;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.librariesContainer {
+  text-align: center;
+}
+
+.systemsContainer {
+  text-align: center;
+}
+
+.skillIcon {
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+}
+
+//Footer Styling
+
+.footerContainer {
+  display: flex;
+  height: 100px;
+  flex-direction: row;
+  background-color: $darkestGreen;
+  justify-content: center;
+  padding-top: 20px;
+
+}
+.footerIconContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.footerIcons {
+  color: $white;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+
+.footerCopyrightContainer {
+  display: flex;
+  flex-direction: row;
+  color: $white;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.copyrightText {
+  font-size: 14px;
 }
