@@ -14,10 +14,10 @@ export default function Home() {
   return (
     <div className={styles.main}>
       <Head>
-        <title>Rebecca Kurtis Portfolio</title>
+        {/* <title>Rebecca Kurtis Portfolio</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="use-credentials" />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&family=Shrikhand&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&family=Shrikhand&display=swap" rel="stylesheet"></link> */}
       </Head>
       <Header></Header>
       <WelcomeHeader></WelcomeHeader>
