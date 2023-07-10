@@ -1,0 +1,44 @@
+@import '../src/app/page.module.scss';
+
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  color: $white;
+  justify-content: center;
+  align-items: center;
+  background-color: $sageGreen;
+  padding: 50px;
+  background-image: url("/images/Flower-background.png");
+  // background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.skillsContainer h2 {
+  font-family: $headerFont;
+  text-align: center;
+  letter-spacing: 1.3px;
+  font-size: 45px;
+}
+
+.skillsContainer p {
+  font-family: $paragraphFont;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.librariesContainer {
+  text-align: center;
+}
+
+.systemsContainer {
+  text-align: center;
+}
+
+.skillIcon {
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+}

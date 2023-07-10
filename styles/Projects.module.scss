@@ -35,6 +35,10 @@
   height: 100px;
 }
 
+div.swiper-button-next, div.swiper-button-prev {
+  color:$forestGreen;
+}
+
 //mobile styling
 @media only screen and (max-width: 979.99px) {
 
