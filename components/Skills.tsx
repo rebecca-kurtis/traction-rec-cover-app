@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../styles/Skills.module.scss";
 
 //import languages icons
-import { IoLogoJavascript } from "react-icons/Io";
+import { IoLogoJavascript } from "react-icons/io";
 import { DiRubyRough } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
 import { AiFillHtml5 } from "react-icons/ai";
