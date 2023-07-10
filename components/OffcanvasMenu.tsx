@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { FaBars } from "react-icons/fa";
 import Link from "next/link";
-import styles from "../styles/Header.module.scss";
+import styles from "../styles/OffCanvasMenu.module.scss";
 
 const options = [
   {
@@ -29,7 +29,7 @@ export default function OffCanvasExample({...props }) {
       </div>
       <Offcanvas className={styles.offCanvasMenu} show={show} onHide={handleClose} {...props}>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Menu</Offcanvas.Title>
+          <Offcanvas.Title className={styles.offCanvasTitle}>Menu</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body className='offcanvas-menu-list'>
           <div className={styles.offcanvasMenuList}>

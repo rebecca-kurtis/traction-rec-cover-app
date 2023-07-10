@@ -7,7 +7,7 @@ interface WhyMeProps {}
 
 export const WhyMe: React.FC<WhyMeProps> = ({}) => {
   return (
-    <div className={styles.whyMeContainer}>
+    <div className={styles.whyMeContainer} id="why-me">
       <div className={styles.whyMeHeader}>
         <div className={styles.whyMeHeaderColourBlock} />
         <div className={styles.whyMeHeaderTextBlock}>

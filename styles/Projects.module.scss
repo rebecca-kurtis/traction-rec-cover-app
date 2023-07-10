@@ -67,10 +67,13 @@
     // width: auto;
     // height: auto;
   }
-  button Navigation.swiper-button-next, .swiper-rtl .swiper-button-prev {
+  div.swiper-button-prev {
     display: none;
   }
-  Navigation.swiper-button-prev {
+  div.swiper-button-next {
     display: none;
   }
+  // Navigation.swiper-button-prev {
+  //   display: none;
+  // }
 }
