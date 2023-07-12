@@ -10,18 +10,18 @@ export const WhyCompany: React.FC<WhyCompanyProps> = ({}) => {
       <div className="pointContainerSpacer"></div>
       <div className="pointContainer">
         <h4 className="whyContainerH4">
-          1. the Company helps people and businesses thrive
+          1. the Company helps small businesses grow their business and thrive
         </h4>
         <p>
-          the Company&apos;s solutions aim to help businesses streamline their
-          operations, improve productivity, and enhance their relationships with
+          the Company aim&apos;s to help businesses streamline their
+          operations, improve productivity, and enhance relationships with
           customers and employees.
         </p>
       </div>
       <div className="pointContainerSpacer"></div>
       <div className="pointContainer">
         <h4 className="whyContainerH4">
-          2. Care for design and user experience
+          2. User experience is very important to the Company
         </h4>
         <p>
           the Company&apos;s products are designed with a user-centric approach
@@ -32,11 +32,11 @@ export const WhyCompany: React.FC<WhyCompanyProps> = ({}) => {
       <div className="pointContainerSpacer"></div>
       <div className="pointContainer">
         <h4 className="whyContainerH4">
-          3. Strong team, compassionate people
+          3. Great and supportive team environment
         </h4>
         <p>
           Respect and trust between coworkers are values that are important to
-          me. the Company has a strong team of people who are compassionate and
+          me. The Company has a strong team of people who are compassionate and
           supportive (and fun!) which makes the Company a special place to work.
         </p>
       </div>
