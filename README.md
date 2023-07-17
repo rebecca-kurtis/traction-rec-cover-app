@@ -1,4 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Cover Letter App
+
+Normal cover letters tend to be a bit boring so I created a cover letter site that also functions as my portfolio and will be customized for each company! This has been deployed with Vercel - You can view it [here](https://cover-letter-app-sigma.vercel.app/)!
+
+Front End Stack: HTML, CSS, NextJS, React, TypeScript
+
+This is a [Next.js](https://nextjs.org/) with TypeScript project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
@@ -14,21 +20,28 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Dependencies
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    - @fortawesome/fontawesome-svg-core 6.4.0
+    - @fortawesome/free-regular-svg-icons 6.4.0
+    - @fortawesome/free-solid-svg-icons 6.4.0
+    - @fortawesome/react-fontawesome 0.2.0
+    - @popperjs/core 2.11.8
+    - @types/node 20.3.1
+    - @types/react 18.2.12
+    - @types/react-dom 18.2.5
+    - bootstrap 5.3.0
+    - eslint 8.42.0
+    - eslint-config-next 13.4.6
+    - next 13.4.6
+    - react 18.2.0
+    - react-bootstrap 2.7.4
+    - react-dom 18.2.0
+    - react-icons 4.7.1
+    - react-slideshow-image 4.1.1
+    - styled-components 6.0.0-rc.3
+    - swiper 8.4.5
+    - typescript 5.1.3
+  
+  Dev-Dependencies: 
+    - sass 1.63.4
