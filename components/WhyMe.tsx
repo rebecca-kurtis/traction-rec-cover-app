@@ -17,21 +17,17 @@ export const WhyMe: React.FC<WhyMeProps> = ({}) => {
       <div className="whyMePointsContainer">
         <CardComponent
           cardTitle="Passion for design and UX"
-          cardText="I have a strong desire to create software and online experiences that are both visually appealing and intuitive for users.
-I am always looking for ways to make the user's journey through a website as seamless and enjoyable as possible.
-I believe that design can change the way people interact with software."
+          cardText="I'm deeply passionate about crafting software and online experiences that are as beautiful to look at as they are easy to use. I'm always looking for new ways to enhance the user experience to make it as smooth and enjoyable as I can. I believe that thoughtful design has the power to revolutionize how we interact with software. It's not just about aesthetics, it's about creating a connection and making our digital interactions feel more human."
         />
         <div className="whyMePointsContainerSpacer" />
         <CardComponent
           cardTitle="Quickly adopt and learn"
-          cardText="I pride myself on my ability to quickly learn and adapt to new technologies. (I am always curious to learn new technologies!)
-One of the things I love about software development is that it's a never-ending learning journey and I am always looking for ways to expand my skills and knowledge in the field."
+          cardText="My ability to quickly absorb and adapt to new technologies is something I take great pride in. The constant learning that comes with software development is something I love, I am always on the lookout for ways to deepen my knowledge. It's turned into more than a profession for me. It's become a passion that keeps my curiosity fueled and my skills growing."
         />
         <div className="whyMePointsContainerSpacer" />
         <CardComponent
           cardTitle="Collaboration"
-          cardText="I believe that teamwork is key to achieving success, and I am committed to doing my part to contribute to the Company team's efforts.
-Empathy and kindness are values that are important to me, and I try to incorporate them into my interactions with others."
+          cardText="I'm a big believer in the power of teamwork and contributing to our collective goals. I always approach team work with empathy and kindness, values that are important to me. I make it a point to bring these into my interactions, fostering a culture of respect and understanding. It's not just about getting the job done, but also about how we treat each other along the way."
         />
       </div>
     </div>
