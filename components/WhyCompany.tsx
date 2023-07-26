@@ -6,38 +6,32 @@ export const WhyCompany: React.FC<WhyCompanyProps> = ({}) => {
   return (
     <div className="whyCompanyContainer" id='why-company'>
       <h2 className="whyContainerH2">What I love about the Company</h2>
-      <p>Here are some fact that I really like about the Company:</p>
+      <p>Here are some fact that I really like about Traction Rec:</p>
       <div className="pointContainerSpacer"></div>
       <div className="pointContainer">
         <h4 className="whyContainerH4">
-          1. the Company helps small businesses grow their business and thrive
+          1. Traction Rec helps non-profits access technologies they may not be able to otherwise.
         </h4>
         <p>
-          the Company aim&apos;s to help businesses streamline their
-          operations, improve productivity, and enhance relationships with
-          customers and employees.
+        Traction Rec helps non-profits maximize member engagement. Using a CRM platform built for the non-profit organization, allows members to access programs, update their information, and connect with the organization directly. This allows the organization to put more effort and time into their programs and member initiatives.
         </p>
       </div>
       <div className="pointContainerSpacer"></div>
       <div className="pointContainer">
         <h4 className="whyContainerH4">
-          2. User experience is very important to the Company
+          2. Members are very important to Traction Rec
         </h4>
         <p>
-          the Company&apos;s products are designed with a user-centric approach
-          and strive to provide an intuitive and seamless user experience. I
-          LOVE the Company&apos;s clean and modern design!
+          Traction Rec helps non-profits maximize member engagement. By using a CRM platform built for the non-profit organization, it allows members to access programs, update their information, and connect with the organization directly. This allows the organization to put more effort and time into their programs and member initiatives.  
         </p>
       </div>
       <div className="pointContainerSpacer"></div>
       <div className="pointContainer">
         <h4 className="whyContainerH4">
-          3. Great and supportive team environment
+          3. Community is important to Traction Rec
         </h4>
         <p>
-          Respect and trust between coworkers are values that are important to
-          me. The Company has a strong team of people who are compassionate and
-          supportive (and fun!) which makes the Company a special place to work.
+           Community is very important to Traction Rec. It&apos;s not about having a job, it&apos;s about empowering non-profit community centers and having a great time while doing it. Community is important to me, showing up for my coworkers and customers/users is something I take great pride in. I think we all benefit from a welcoming and inclusive environment and I always strive to make that happen however I can.
         </p>
       </div>
     </div>

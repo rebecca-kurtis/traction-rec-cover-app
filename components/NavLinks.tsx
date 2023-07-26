@@ -31,7 +31,7 @@ export const NavLinks: React.FC<NavLinksProps> = ({}) => {
         <nav>
         <Link className="navLink" href={'#about'}>About</Link>
         <Link className="navLink" href={'#projects'}>Projects</Link>
-        <Link className="navLink" href={'#why-company'}>Why Company</Link>
+        <Link className="navLink" href={'#why-company'}>Why Traction Rec</Link>
         <Link className="navLink" href={'#why-me'}>Why Me</Link>
         <Link className="navLink" href={'#skills'}>Skills</Link>
         <a className="navLink" href={resumeURL} target='_blank' rel="noreferrer noopener">Resume</a>

@@ -34,7 +34,7 @@ export default function OffCanvasExample({...props }) {
     
               <Link className="navLinkCanvas" href={'#about'}>About</Link>
               <Link className="navLinkCanvas" href={'#projects'}>Projects</Link>
-              <Link className="navLinkCanvas" href={'#why-company'}>Why Company</Link>
+              <Link className="navLinkCanvas" href={'#why-company'}>Why Traction Rec</Link>
               <Link className="navLinkCanvas" href={'#why-me'}>Why Me</Link>
               <Link className="navLinkCanvas" href={'#skills'}>Skills</Link>
               <a className="navLinkCanvas" href={resumeURL} target='_blank' rel="noreferrer noopener">Resume</a>
